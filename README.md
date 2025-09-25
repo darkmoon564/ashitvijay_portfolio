@@ -1,7 +1,7 @@
 # Ashit Vijay's Portfolio
 
 This is the personal portfolio of Ashit Vijay, showcasing projects and professional experience.
-
+You can view the site here - https://ashitvijay-portfolio.vercel.app 
 ## Getting Started
 
 First, run the development server:
@@ -25,3 +25,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ## Credits and Acknowledgements
 
 A significant portion of the code in this repository was cloned from [Mohit Virli's repository](https://github.com/mohitvirli/mohitvirli.github.io). A big thanks to him for his work.
+
