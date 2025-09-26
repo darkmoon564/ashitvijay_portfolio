@@ -3,7 +3,7 @@
 This is my personal portfolio website built with Next.js 15, React, and Three.js.
 It showcases my work, projects, and skills in an interactive 3D environment.
 
-Live Demo 👉 ashitvijay-portfolio.vercel.app
+Live Demo 👉 https://ashitvijay-portfolio.vercel.app/
 
 🚀 Features
 
