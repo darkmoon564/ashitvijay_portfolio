@@ -19,7 +19,7 @@ Deployed on Vercel for fast & reliable hosting
 
 Clone the repository and install dependencies:
 
-git clone https://github.com/darkmoon564/darkmoon564.github.io.git
+git clone https://github.com/darkmoon564/ashitvijay_portfolio
 cd darkmoon564.github.io
 npm install
 
