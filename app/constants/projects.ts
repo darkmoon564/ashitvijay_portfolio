@@ -20,7 +20,7 @@ export const PROJECTS: Project[] = [
     subtext: 'A resume builder that can be used to create a resume using LLM.',
     url: 'https://github.com/darkmoon564/resume',
   },
-  
+
   {
     title: 'Fake News Detection',
     date: 'March 2024',
@@ -39,5 +39,22 @@ export const PROJECTS: Project[] = [
     subtext: 'A CNN model which helps hospitals to distinguish between spoiled and good medicines.',
     url: 'https://github.com/sahilbichwalia/xebia',
   },
-  
+  {
+    title: 'ScribeAI',
+    date: 'November 2025',
+    subtext: 'A Real-time Audio Transcription & Summarization application built using Next.js ,Gemini api and WebRTC.',
+    url: 'https://github.com/darkmoon564/scribeai',
+  },
+  {
+    title: 'FinanceAgent',
+    date: 'November 2025',
+    subtext: 'A Multi-Agent AI application that acts as a comprehensive stock research analyst using langgraph,gradio and Gemini API.',
+    url: 'https://github.com/darkmoon564/financeagent',
+  },
+  {
+    title: 'SHL',
+    date: 'December 2025',
+    subtext: 'An intelligent recommendation engine that suggests relevant SHL assessments based on natural language queries or job descriptions built for SHL assignment.',
+    url: 'https://github.com/darkmoon564/SHL',
+  },
 ];

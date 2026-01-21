@@ -17,8 +17,15 @@ export const WORK_TIMELINE: WorkTimelinePoint[] = [
     subtitle: 'Ai intern',
     position: 'left',
   },
-  
-  
+  {
+    point: new THREE.Vector3(4, -4, -3),
+    year: '2026',
+    title: 'Algorizz',
+    subtitle: 'Ai intern',
+    position: 'right',
+  },
+
+
   {
     point: new THREE.Vector3(1, 1, -12),
     year: new Date().toLocaleDateString('default', { year: 'numeric' }),
