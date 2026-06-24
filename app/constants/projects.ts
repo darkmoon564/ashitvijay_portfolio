@@ -3,6 +3,24 @@ import { Project } from "../types";
 // TODO: Move this to API
 export const PROJECTS: Project[] = [
   {
+    title: 'PaperSwipe',
+    date: 'May 2026',
+    subtext: 'A Tinder-style research paper discovery application with a swipe interface, personalized recommendations (vector similarity via pgvector), and collection saving.',
+    url: 'https://paperswipe-five.vercel.app/',
+  },
+  {
+    title: 'LifePilot',
+    date: 'June 2026',
+    subtext: 'A minimal daily cockpit to dump tasks, track habits, and clear your head. Features a focus score tracker, AI-driven reflection coach, and an objective decision matrix.',
+    url: 'https://github.com/darkmoon564/lifepilot',
+  },
+  {
+    title: 'Shina Vijay Portfolio',
+    date: 'May 2026',
+    subtext: 'A clean, modern personal portfolio website built for my sister to showcase her professional work and projects.',
+    url: 'https://shinavijay.com/',
+  },
+  {
     title: 'Ai_Outreach Agent',
     date: 'May 2025',
     subtext: 'An automated agent that sends personalized outreach emails to recruiters and hiring managers after researching their LinkedIn profiles.',
