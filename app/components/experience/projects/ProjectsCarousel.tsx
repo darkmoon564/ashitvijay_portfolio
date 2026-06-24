@@ -18,13 +18,15 @@ const ProjectsCarousel = () => {
     setActiveId(id === activeId ? null : id);
   };
 
+  const fov = Math.PI * 1.15; // Spread slightly wider to accommodate more projects
+  const distance = 18; // Increased distance to prevent overlaps
+
   const tiles = useMemo(() => {
-    const fov = Math.PI;
-    const distance = 13;
     const count = PROJECTS.length;
 
     return PROJECTS.map((project, i) => {
-      const angle = (fov / count) * i;
+      // Use count - 1 to distribute tiles symmetrically from 0 to fov
+      const angle = (fov / (count - 1)) * i;
       const z = -distance * Math.sin(angle);
       const x = -distance * Math.cos(angle);
       const rotY = Math.PI / 2 - angle;
@@ -43,8 +45,11 @@ const ProjectsCarousel = () => {
     });
   }, [activeId, isActive]);
 
+  // Center the carousel dynamically based on the fov
+  const groupRotationY = Math.PI / 2 - fov / 2;
+
   return (
-    <group rotation={[0, -Math.PI / 12, 0]}>
+    <group rotation={[0, groupRotationY, 0]}>
       {tiles}
     </group>
   );
